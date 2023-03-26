@@ -1,0 +1,46 @@
+.corner-style {
+  position: relative;
+}
+
+.corner-style:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 23px solid white;
+  border-left: 23px solid #00ffff;
+  border-bottom: 23px solid white;
+  border-right: 0px solid #00ffff;
+  width: 0;
+}
+.footer-corner-style {
+  position: relative;
+}
+
+.footer-corner-style:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 23px solid #ff0044;
+  border-left: 23px solid #00ffff;
+  border-bottom: 23px solid #ff0044;
+  border-right: 0px solid #00ffff;
+  width: 0;
+}
+
+.banner-corner-style {
+  position: relative;
+}
+
+.banner-corner-style:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 23px solid #ff0044;
+  border-left: 23px solid #00ffff;
+  border-bottom: 23px solid #ff0044;
+  border-right: 0px solid #00ffff;
+  width: 0;
+}
